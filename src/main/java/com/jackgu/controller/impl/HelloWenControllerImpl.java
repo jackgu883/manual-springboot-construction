@@ -4,6 +4,9 @@ import com.jackgu.controller.HelloWebController;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.RestController;
 
+/**
+ * 显示层接口实现类
+ */
 @Slf4j
 @RestController
 public class HelloWenControllerImpl implements HelloWebController {
